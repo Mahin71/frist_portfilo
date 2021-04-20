@@ -1,0 +1,575 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+.frist_div_nav{
+    background-color: #ffffff;
+    height: 75px;
+}
+
+
+.frist_div_navbar {
+    display: inline-block;
+    float: right;
+}
+
+ul.frist_nav {
+    display: flex;
+    list-style: none;
+    padding: 27px;
+    margin-right: 10pc;
+}
+
+li.frist_li {
+    margin-right: 32px;
+    font-family: sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.frist_nav_frist_img {
+    padding: 9px;
+    margin-left: 153px;
+    width: 171px;
+}
+.frist_div_style{
+    background: url(image/6.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-color: #191919;
+    position: relative;
+}
+.frist_section {
+    background: black;
+}
+.frist_div_style_second {
+    margin-left: 30pc;
+    margin-top: 10pc;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 1px;
+}
+h4.frist_div_style_second_h4 {
+    font-size: 25px;
+    color: white;
+    font-family: cursive;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    }
+    li.frist_li:hover{
+        color: rgb(53, 227, 236);
+        transition: 0.5s;
+    }
+
+h1.frist_div_style_second_h1 {
+    font-size: 58px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0px;
+    }
+    .frist_div_style_second_one_icon {
+        padding: 17px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    i.fa-facebook{
+        color: #ffffff;
+        font-size: 29px;
+        margin-right: 15px;
+        /* background: white; */
+        /* width: 4px; */
+        /* height: 14px; */
+        /* padding: 10px; */
+        /* border-radius: 90%; */
+        /* padding-top: 8px; */
+        /* padding-bottom: 10px; */
+    }
+    
+    i.fab.fa-twitter-square {
+        color: white;
+        font-size: 30px;
+    }
+    
+    i.fab.fa-instagram-square {
+        color: white;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    
+    i.fab.fa-google {
+        color: white;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    
+    i.fab.fa-linkedin {
+        color: white;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    
+    button.frist_div_style_second_one_button {
+        padding: 22px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        background-color: #0dc7ff;
+        width: 181px;
+        text-transform: capitalize;
+        font-size: 14px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .frist_div_style_second_one_button:hover{
+        color: rgb(0, 0, 0);
+        background-color: rgb(20, 241, 120);
+
+    }
+
+.frist_div_style_second{
+    animation: fristani 1s;
+
+}    
+@keyframes fristani{
+    from{bottom: 0px; opacity: 0;}
+    to{
+        bottom: 142px;opacity: 1;
+    }
+}
+.second_main_style {
+    height: 740px;
+}
+
+.second_frist_style {
+ 
+float: left;
+ 
+margin-left: 170px;
+ 
+margin-top: 90px;
+ 
+box-shadow: 1px 1px 8px #030303;
+ 
+border: 10px solid white;
+ 
+width: 35%;
+ 
+background: url(image/mahin.jpg);
+ 
+height: 570px;
+ 
+background-size:cover;
+ 
+background-repeat: no-repeat;
+}
+.second_style_second {
+    display: block;
+    float: right;
+    width: 355px;
+}
+.second_style_second {
+    display: block;
+    float: right;
+    margin-top: 79px;
+    margin-right: 98px;
+    width: 609px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+h2.second_style_second_h2 {
+    font-size: 34px;
+    line-height: 3;
+}
+
+p.second_style_second_p {
+    line-height: 1.3;
+    font-size: 14px;
+    font-family: inherit;
+}
+.second_style_third {
+    /* width: 122px; */
+    text-align: inherit;
+    display: inline-grid;
+}
+
+span.second_style_third_span {font-size: 15px;
+    width: 466px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    line-height: 1.4;}
+    .second_style_four {
+        padding: 30px;
+        padding-left: 0px;
+    }
+    
+    button.second_style_four_button {
+        padding: 13px;
+        border: none;
+        background: #0894be;
+        color: white;
+        border-radius: 6px;
+        width: 201px;
+        cursor: pointer;
+        margin-right: 39px;
+    }
+    
+    button.second_style_third_four_second {
+        padding: 13px;
+        border: none;
+        background: red;
+        color: white;
+        width: 171px;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    button.second_style_third_four_second:hover{
+        background-color: #432f2f;
+        transition: 0.5s;
+        color: white;
+    }
+    .second_style_four_button:hover{
+        background-color: green;
+        color:rgb(255, 255, 255);
+        transition:0.5s;
+    }
+    .third_div_main {
+        height: 600px;
+        background: #F0F0F0;
+        position: relative;
+    }
+    
+    .third_div_frist {
+        display: inline-block;
+        width: 194px;
+        background: white;
+        padding: 30px;
+        margin-left: 13pc;
+        margin-top: 10pc;
+        text-align: center;
+        box-shadow: 3px 3px 0px #868686;
+        padding-top: 53px;
+        padding-bottom: 5pc;
+        text-align: center;
+        border-radius: 4px;
+        margin-right: -168px;
+        transition: 0.5s;
+    }
+    
+    h1.third_div_main_h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: cursive;
+        text-transform: capitalize;
+        margin-top: 44px;
+        position: absolute;
+        margin-left: 45pc;
+    }
+    
+    .fa-th-large,.fa-envelope,.fa-briefcase,.fa-layer-group{
+        font-size: 56px;
+        margin-bottom: 24px;
+        color: #00adff;
+    }
+    
+    h2.third_div_ffrist_h2 {
+        font-size: 17px;
+        font-family: sans-serif;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    
+    p.third_div_frist_p {
+        /* width: 224px; */
+        margin: auto;
+        margin-top: 1pc;
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+    .third_div_frist:hover{
+        box-shadow: 10px 10px 3px #868686;
+    }
+    .four_main {
+        height: 700px;
+    }
+    
+    h1.four_main_h1 {
+        /* display: inline-block; */
+        /* margin: auto; */
+        margin-top: 4pc;
+        margin-left: 38pc;
+        font-size: 34px;
+        font-family: sans-serif;
+        text-transform: capitalize;
+    }
+    .four_mani_buuton {
+        margin-top: 3pc;
+        margin-left: 33pc;
+    }
+    
+    button.four_mani_bouuton_frist {
+        padding: 10px;
+        width: 112px;
+        border: 1px solid #8dcec2;
+        background: white;
+        font-size: 16px;
+        font-family: monospace;
+        text-transform: uppercase;
+        margin-right: 3px;
+        color: #00f3ff;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    button.four_mani_bouuton_second {
+        width: 153px;
+        padding: 11px;
+        font-size: 15px;
+        border: none;
+        background: #00f3ff;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        text-transform: capitalize;
+        font-family: monospace;
+        transition: 0.5s;
+    }
+    
+    button.four_mani_bouuton_third {
+        padding: 10px;
+        width: 135px;
+        border: none;
+        border-radius: 4px;
+        background: #00f3ff;
+        color: white;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-family: monospace;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    button.four_mani_bouuton_four {
+        padding: 10px;
+        width: 130px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        background: #00f3ff;
+        color: white;
+        font-family: monospace;
+        text-transform: capitalize;
+        border-radius: 4px;
+        transition: 0.5s;
+    }
+   
+    img.four_div_last_img {
+        width: 345px;
+        height: 207px;
+        margin-left: 237px;
+        margin-top: 23px;
+        margin-right: -204px;
+    }
+    h2.third_div_ffrist_h2:hover {
+        color: #00adff;
+    }
+    button.four_mani_bouuton_frist:hover {
+        box-shadow: 0px 0px 7px #cecece;
+        /* transition: 0.5s; */
+    }
+    button.four_mani_bouuton_second:hover {
+        background-color: rgb(50, 189, 50);
+        /* transition: 0.5s; */
+    }
+    button.four_mani_bouuton_third:hover {
+        background-color: rgb(50, 189, 50);
+        /* transition: 0.5s; */
+    }
+    button.four_mani_bouuton_four:hover {
+        background-color: rgb(50, 189, 50);
+        /* transition: 0.5s; */
+    }
+    .five_main {
+        height: 350px;
+        background: url(image/workOne.jpg);
+        position: relative;
+        background-color: black;
+    }
+    .five_main_frist_fri {
+        display: inline-block;
+        /* background: white; */
+        padding: 0px;
+        width: 211px;
+        font-size: 22px;
+        font-family: monospace;
+        /* height: 137px; */
+        text-align: center;
+        /* border-radius: 5px; */
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin-left: 153px;
+    }
+    
+    .five_main_frist {
+        margin-top: 7pc;
+        position: absolute;
+        margin-left: -2pc;
+    }
+    p.five_main_frist_p {
+        font-size: 20px;
+        margin-top: 11px;
+    }
+    .fa-gem,.fa-heart,.fa-check-circle{
+        font-size: 45px;
+        margin-bottom: 24px;
+        color: #00adff;
+    }
+    
+    .second_last_main {
+        height: 1200px;
+    }
+    
+    .second_last {
+        height: 1082px;
+        background: #f8f8f8;
+        margin-left: 10pc;
+        margin-top: 8pc;
+        margin-right: 10pc;
+        box-shadow: 1px 0px 20px #7e7272;
+        margin-bottom: 1pc;
+    }
+    .second_conta_from {
+        width: 474px;
+        padding: 69px 0px 13px 119px;
+        float: left;
+    }
+    
+    h2.second_conta_from_h2 {
+        font-size: 36px;
+        text-transform: capitalize;
+        font-family: monospace;
+        margin-bottom: 40px;
+    }
+    
+    input.second_conta_from_name,.second_conta_from_email{
+        padding: 8px 21px;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-bottom: 16px;
+        border: 1px solid #aeaeae;
+        text-transform: capitalize;
+        margin-right: 11px;
+        font-family: monospace;
+    }
+    input.second_conta_from_subject {
+        padding: 11px 27px;
+        width: 384px;
+        font-size: 14px;
+        margin-bottom: 16px;
+        text-transform: capitalize;
+        border-radius: 4px;
+        border: 1px solid #a59f9f;
+        font-family: monospace;
+    }
+    textarea.second_conta_from_subject_message {
+        width: 368px;
+        height: 110px;
+        padding: 29px 35px;
+        font-size: 14px;
+        font-family: monospace;
+        text-transform: capitalize;
+    }
+    button.second_conta_from_button {
+        padding: 23px;
+        width: 200px;
+        margin: 29px 0px;
+        background: #00e7ff;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: monospace;
+        text-transform: capitalize;
+        cursor: pointer;
+        color: white;
+        transition: 1s;
+    }
+    button.second_conta_from_button:hover{
+        background-color: green;
+    }
+    .second_contact_adress {
+        float: right;
+        width: 558px;
+        margin: 4pc 0pc 0pc 0pc;
+    }
+    
+    h2.second_contact_adress_h2 {
+        font-size: 36px;
+        font-family: monospace;
+        text-transform: capitalize;
+    }
+    
+    .second_contact_adress_frist {
+        background: #ffffffb8;
+        border: 1px solid #a7a7a7;
+        width: 372px;
+        height: 189px;
+        margin: 45px 0px 0px 0px;
+        padding: 44px;
+    }
+    
+    .second_contact_adress_frist_fris {
+        display: flex;
+        margin-bottom: 26px;
+    }
+    
+    i.fas.fa-map-marker,.fa-envelope-open,.fa-phone{
+        color: #00e7ff;
+        font-size: 20px;
+    }
+    
+    h3.second_contact_adress_frist_h3 {
+        font-size: 17px;
+        margin-left: 8px;
+        font-family: monospace;
+        text-transform: capitalize;
+        margin-bottom: 34px;
+    }
+    .second_last_ifa {
+        /* padding: 19pc; */
+        margin-top: -1pc;
+        float: left;
+        margin-left: 118px;
+    }
+    
+    .foter_frist {
+        height: 382px;
+        background: #1C1C20;
+        color: white;
+        position: relative;
+    }
+    .foter_second {
+        width: 383px;
+        /* margin: auto; */
+        margin-top: 11pc;
+        position: absolute;
+        margin-left: 42pc;
+    }
+    
+    h4.foter_h4 {
+        margin-top: 20px;
+        margin-left: -77px;
+        font-size: 17px;
+        font-family: monospace;
+    }
